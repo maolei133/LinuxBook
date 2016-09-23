@@ -9,7 +9,7 @@
    * 配置 git
 * [java 安装与配置](java.md)
    * 安装 java
-   * 配置 java
+   * [配置 java](java_configure.md)
 * [zookeeper安装与配置](zookeeper.md)
    * [安装zookeeper](zookeeper_install.md)
    * [配置zookeeper](zookeeper_configure.md)
