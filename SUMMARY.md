@@ -6,7 +6,7 @@
    * [配置 maven](maven_configure.md)
 * [git 安装与配置](git/git.md)
    * [安装 git](git/git_install.md)
-   * [配置 git](git_configure.md)
+   * [配置 git](git/git_configure.md)
 * [java 安装与配置](java.md)
    * [安装 java](java_install.md)
    * [配置 java](java_configure.md)
