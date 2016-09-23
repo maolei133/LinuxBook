@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [maven](maven.md)
+* [maven 安装与配置](maven.md)
 * [git](git.md)
 * [java 安装与配置](java.md)
 * [zookeeper安装与配置](zookeeper.md)
