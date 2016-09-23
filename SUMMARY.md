@@ -6,6 +6,7 @@
    * [配置 maven](maven_configure.md)
 * [git](git.md)
 * [java 安装与配置](java.md)
+   * 安装 java
 * [zookeeper安装与配置](zookeeper.md)
    * [安装zookeeper](zookeeper_install.md)
    * [配置zookeeper](zookeeper_configure.md)
