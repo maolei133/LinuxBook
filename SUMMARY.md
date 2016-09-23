@@ -5,4 +5,5 @@
 * [maven](maven.md)
 * [git](git.md)
 * [zookeeper安装与配置](zookeeper.md)
+   * 安装
 
