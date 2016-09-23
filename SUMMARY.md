@@ -8,7 +8,7 @@
    * 安装 git
    * [配置 git](git_configure.md)
 * [java 安装与配置](java.md)
-   * 安装 java
+   * [安装 java](java_install.md)
    * [配置 java](java_configure.md)
 * [zookeeper安装与配置](zookeeper.md)
    * [安装zookeeper](zookeeper_install.md)
