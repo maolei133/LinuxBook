@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [maven 安装与配置](maven.md)
    * [安装 maven](maven_install.md)
-   * 配置 maven
+   * [配置 maven](maven_configure.md)
 * [git](git.md)
 * [java 安装与配置](java.md)
 * [zookeeper安装与配置](zookeeper.md)
