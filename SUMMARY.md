@@ -8,5 +8,5 @@
    * [安装](zookeeper_install.md)
    * [配置](zookeeper_configure.md)
 * [mysql安装与配置](mysql.md)
-   * 安装mysql
+   * [安装mysql](mysql_install.md)
 
