@@ -7,5 +7,5 @@
 * [zookeeper安装与配置](zookeeper.md)
    * [安装](zookeeper_install.md)
    * [配置](zookeeper_configure.md)
-* mysql安装与配置
+* [mysql安装与配置](mysql.md)
 
