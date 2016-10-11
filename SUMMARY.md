@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [java 安装与配置](java/java.md)
+* [java 安装与配置](java-安装与配置.md)
     * [安装 java](java/java_install.md)
     * [配置 java](java/java_configure.md)
 * [maven 安装与配置](maven/maven.md)
@@ -17,4 +17,6 @@
     * [安装zookeeper](zookeeper/zookeeper_install.md)
     * [配置zookeeper](zookeeper/zookeeper_configure.md)
 * [linux 安装与配置](linux.md)
+* [test](test.md)
+    * [test1](test1.md)
 
