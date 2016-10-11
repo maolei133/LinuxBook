@@ -17,6 +17,4 @@
     * [安装zookeeper](zookeeper/zookeeper_install.md)
     * [配置zookeeper](zookeeper/zookeeper_configure.md)
 * [linux 安装与配置](linux.md)
-* [test](test.md)
-    * [test1](test1.md)
 
