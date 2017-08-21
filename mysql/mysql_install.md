@@ -53,7 +53,7 @@
 ```
 1. 提示 Requires: libstdc++.so.6(GLIBCXX_3.4.15)(64bit)
    升级gcc：http://blog.liudongkai.com/2014/05/12/GLIBCXX-not-found/
-   升级libstdc：http://blog.liudongkai.com/2014/05/12/GLIBCXX-not-found/
+   或升级libstdc：http://blog.liudongkai.com/2014/05/12/GLIBCXX-not-found/
    下载 wget http://ftp.de.debian.org/debian/pool/main/g/gcc-4.7/libstdc++6_4.7.2-5_amd64.deb
    假设下载的文件放在/data0/software/
    解压：ar -x libstdc++6_4.7.2-5_amd64.deb && tar xvf data.tar.gz
