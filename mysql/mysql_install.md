@@ -1,46 +1,61 @@
 # 安装mysql
 
-###1.下载仓库
+### 1.下载仓库
+
 [下载地址](http://dev.mysql.com/downloads/repo/yum/)
 
-###2.安装仓库
->yum localinstall mysql57-community-release-el6-8.noarch.rpm
+### 2.安装仓库
 
-###3.查看可安装的mysql
->yum repolist enabled | grep "mysql.*-community.*"
+> yum localinstall mysql57-community-release-el6-8.noarch.rpm
 
-###4.安装
->安装最新的版本，那么可以直接执行	
-yum install mysql-community-server
+### 3.查看可安装的mysql
 
->如果我们要选择版本，可以先执行下面这个命令查看一下有哪些版本	
-yum repolist all | grep mysql
+> yum repolist enabled \| grep "mysql._-community._"
 
->信息如下，默认启用5.7版本的mysql	
-mysql55-community	MySQL 5.5 Community Server	disabled	
-mysql56-community	MySQL 5.6 Community Server	disabled	
-mysql57-community	MySQL 5.7 Community Server	enabled:	282	
+### 4.安装
 
->如果要安装5.6版本的mysql，用命令启用5.6版本，禁用5.7版本	
-yum-config-manager --enable mysql56-community	
-yum-config-manager --disable mysql57-community	
+> 安装最新的版本，那么可以直接执行  
+> yum install mysql-community-server
+>
+> 如果我们要选择版本，可以先执行下面这个命令查看一下有哪些版本  
+> yum repolist all \| grep mysql
+>
+> 信息如下，默认启用5.7版本的mysql  
+> mysql55-community    MySQL 5.5 Community Server    disabled  
+> mysql56-community    MySQL 5.6 Community Server    disabled  
+> mysql57-community    MySQL 5.7 Community Server    enabled:    282
+>
+> 如果要安装5.6版本的mysql，用命令启用5.6版本，禁用5.7版本  
+> yum-config-manager --enable mysql56-community  
+> yum-config-manager --disable mysql57-community
+>
+> 系统默认没有这个命令，这个命令在yum-utils 包里  
+> 用命令时报错  
+> -bash: yum-config-manager: command not found
+>
+> 通过命令安装yum-utils  
+> yum -y install yum-utils
+>
+> 配置完成后执行命令安装mysql  
+> yum install mysql-community-server
+>
+> 启动mysql  
+> service mysqld start
+>
+> 查看mysql状态  
+> service mysqld status
+>
+> 重启mysql  
+> service mysqld restart
 
->系统默认没有这个命令，这个命令在yum-utils 包里		
-用命令时报错
--bash: yum-config-manager: command not found
+### 5.安装错误
 
->通过命令安装yum-utils	
-yum -y install yum-utils
+```
+1. 提示 Requires: libstdc++.so.6(GLIBCXX_3.4.15)(64bit)
+   升级gcc：http://blog.liudongkai.com/2014/05/12/GLIBCXX-not-found/
+```
 
->配置完成后执行命令安装mysql	
-yum install mysql-community-server
 
->启动mysql	
-service mysqld start
 
->查看mysql状态	
-service mysqld status
 
->重启mysql	
-service mysqld restart
 
