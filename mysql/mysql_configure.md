@@ -2,9 +2,13 @@
 
 ### 1. 修改root密码为123456
 
-&gt;  
-update mysql.user set password=PASSWORD\('123456'\) where User='root';  
-flush privileges;
+> SET PASSWORD = PASSWORD\('4iTt9e7R3P'\);
+>
+> 或
+>
+> update mysql.user set password=PASSWORD\('123456'\) where User='root';
+>
+> flush privileges;
 
 ### 2. 创建用户
 
@@ -38,7 +42,17 @@ vi /etc/sysconfig/iptables
 
 ### 5.查询初始化密码
 
-> grep 'temporary password' /var/log/mysqld.log
+> grep 'temporary password' /var/log/mysqld.log
+
+### 6.开放mysql远程连接
+
+> mysql&gt;use mysql;
+>
+> mysql&gt;update user set host = '%' where user = 'root';
+>
+> mysql&gt;select host, user from user;
+>
+> mysql&gt;flush privileges;
 
 
 
