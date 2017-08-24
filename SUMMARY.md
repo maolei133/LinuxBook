@@ -19,6 +19,8 @@
 * [linux 安装与配置](linux.md)
 * [docker](docker.md)
   * [安装docker](docker/an-zhuang-docker.md)
+  * [配置docker](docker/pei-zhi-docker.md)
+  * [指令](docker/zhi-ling.md)
 
 ## docker
 
