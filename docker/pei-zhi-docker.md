@@ -40,7 +40,7 @@
 
 ###### 4.3 指定配置启动
 
-> docker run --name activemq -p 8161:8161 -p 61616:61616 -e ACTIVEMQ\_ADMIN\_LOGIN=admin -e ACTIVEMQ\_ADMIN\_PASSWORD=123456 --restart=always -d activemq:latest
+> docker run --name activemq -p 8161:8161 -p 61616:61616 -e ACTIVEMQ\_ADMIN\_LOGIN=admin -e ACTIVEMQ\_ADMIN\_PASSWORD=123456 --restart=always -d webcenter/activemq:latest
 >
 > 命令说明：
 >
