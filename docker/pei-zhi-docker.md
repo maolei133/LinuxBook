@@ -10,17 +10,17 @@
 
 ### 3.配置mysql
 
-> \#查询mysql的镜像
->
+###### 3.1 查询mysql的镜像
+
 > docker search mysql
->
-> \#拉取mysql镜像
->
+
+###### 3.2 获取mysql镜像
+
 > docker pull mysql
->
-> \#指定配置启动
->
-> docker run -p 3306:3306 --name mymysql -e MYSQL\_ROOT\_PASSWORD=123456 -d mysql:latest
+
+###### 3.3 指定配置启动
+
+> docker run --name mysql -p 3306:3306 -e MYSQL\_ROOT\_PASSWORD=123456 -d mysql:latest
 >
 > 命令说明：
 >
@@ -30,18 +30,16 @@
 
 ### 4.配置ActiveMQ
 
-> \#查询ActiveMQ的镜像
->
+###### 4.1 查询ActiveMQ的镜像
+
 > docker search activemq
->
-> \#拉取ActiveMQ镜像
->
+
+###### 4.2 获取ActiveMQ镜像
+
 > docker pull webcenter/activemq
->
-> \#指定配置启动
->
-> docker run -p 8161:8161 -p 61613:61613 --name mymysql -e MYSQL\_ROOT\_PASSWORD=123456 -d mysql:latest
->
+
+###### 4.3 指定配置启动
+
 > docker run --name activemq -p 8161:8161 -p 61616:61616 -e ACTIVEMQ\_ADMIN\_LOGIN=admin -e ACTIVEMQ\_ADMIN\_PASSWORD=123456 --restart=always -d activemq:latest
 >
 > 命令说明：
