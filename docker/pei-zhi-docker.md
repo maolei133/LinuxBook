@@ -1,4 +1,4 @@
-# 配置docker 
+# 配置docker
 
 ### 1.创建docker账户
 
@@ -42,13 +42,19 @@
 >
 > docker run -p 8161:8161 -p 61613:61613 --name mymysql -e MYSQL\_ROOT\_PASSWORD=123456 -d mysql:latest
 >
+> docker run --name activemq -p 8161:8161 -p 61616:61616 -e ACTIVEMQ\_ADMIN\_LOGIN=admin -e ACTIVEMQ\_ADMIN\_PASSWORD=123456 --restart=always -d activemq:latest
+>
 > 命令说明：
 >
 > * **-p **8161**:**8161**：**将容器的3306端口映射到主机的8161端口
 >
 > * **-p** 61613:61613**：**将容器的3306端口映射到主机的61613端口
 >
-> * **-e MYSQL\_ROOT\_PASSWORD=123456：**初始化root用户的密码
+> * **-e ACTIVEMQ\_ADMIN\_LOGIN=admin：**初始化用户的名称
+>
+> * **-e ACTIVEMQ\_ADMIN\_PASSWORD=123456：**初始化用户的密码
+>
+> * **--restart=always：**开机自动启动
 
 
 
