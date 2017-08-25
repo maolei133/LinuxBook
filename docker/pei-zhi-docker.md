@@ -1,4 +1,4 @@
-# 配置docker
+# 配置docker 
 
 ### 1.创建docker账户
 
@@ -7,8 +7,6 @@
 ### 2.设置docker账户密码
 
 > echo "docker:docker" \| chpasswd
-
-
 
 ### 3.配置mysql
 
@@ -30,8 +28,6 @@
 >
 > * **-e MYSQL\_ROOT\_PASSWORD=123456：**初始化root用户的密码
 
-
-
 ### 4.配置ActiveMQ
 
 > \#查询ActiveMQ的镜像
@@ -40,7 +36,7 @@
 >
 > \#拉取ActiveMQ镜像
 >
-> docker pull webcenter/activemq 
+> docker pull webcenter/activemq
 >
 > \#指定配置启动
 >
@@ -50,7 +46,7 @@
 >
 > * **-p **8161**:**8161**：**将容器的3306端口映射到主机的8161端口
 >
-> * **-p** 61613:61613 
+> * **-p** 61613:61613**：**将容器的3306端口映射到主机的61613端口
 >
 > * **-e MYSQL\_ROOT\_PASSWORD=123456：**初始化root用户的密码
 
