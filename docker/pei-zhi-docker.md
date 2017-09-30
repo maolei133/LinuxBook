@@ -54,5 +54,11 @@
 >
 > * **--restart=always：**开机自动启动
 
+### 5.配置Redis
+
+> docker run --name redis -p 6379:6379 --restart=always -d redis:latest
+
+
+
 
 
