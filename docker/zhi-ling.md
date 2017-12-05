@@ -11,13 +11,7 @@
 | 停止所有容器 | docker stop $\(docker ps -a -q\) |
 | 删除所有容器 | docker rm $\(docker ps -a -q\) |
 | 停用并删除容器 | docker stop $\(docker ps -q\) & docker rm $\(docker ps -aq\) |
-| 构建镜像命令 | docker build -t test -f dockerfile . |
-
- 
-
-
-
-
+| 构建镜像命令 | docker build -t 镜像名称 -f dockerfile文件名称 . |
 
 
 
