@@ -5,8 +5,6 @@
 | 查询镜像 | docker search 镜像名称 |
 | 拉取镜像 | docker pull 镜像名称 |
 | 查看已有镜像 | docker images |
-|  | docker ps -a |
-|  | docker ps |
 | 停止启动容器 | docker stop $\(docker ps -q\) |
 | 停止所有容器 | docker stop $\(docker ps -a -q\) |
 | 删除所有容器 | docker rm $\(docker ps -a -q\) |
