@@ -20,7 +20,7 @@
 
 ###### 3.3 指定配置启动
 
-> docker run --name mysql -p 3306:3306 -e MYSQL\_ROOT\_PASSWORD=123456 -d mysql:latest
+> docker run --name mysql -p 3306:3306 -e MYSQL\_ROOT\_PASSWORD=123456 --restart=always -d mysql:latest
 >
 > 命令说明：
 >
