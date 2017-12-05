@@ -15,9 +15,9 @@
 
 | 简介 | 指令 |
 | :--- | :--- |
-| 启动docker | systemctl start docker |
 | 查看版本 | docker -v |
-| 查看状态 | systemctl status docker  |
+| 启动docker | systemctl start docker |
+| 查看状态 | systemctl status docker |
 
 # 镜像指令
 
