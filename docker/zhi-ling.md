@@ -16,10 +16,21 @@
 | 进入容器 | docker exec -it &lt;CONTAINER ID&gt; /bin/bash |
 
 
+asdasdasdada
+ds
+asd
+asd
+as
+das
+
 
 | 简介 | 指令 |
 | :---: | :---: |
 | 进入容器 | docker run -ti --rm=true &lt;REPOSITORY&gt; /bin/bash |
+
+
+
+
 
 
 
