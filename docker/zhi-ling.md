@@ -15,22 +15,19 @@
 | 构建镜像命令 | docker build -t 镜像名称 -f dockerfile文件名称 . |
 | 进入容器 | docker exec -it &lt;CONTAINER ID&gt; /bin/bash |
 
-
-asdasdasdada
-ds
-asd
-asd
-as
+asdasdasdada  
+ds  
+asd  
+asd  
+as  
 das
 
+# 容器指令
 
 | 简介 | 指令 |
-| :---: | :---: |
-| 进入容器 | docker run -ti --rm=true &lt;REPOSITORY&gt; /bin/bash |
-
-
-
-
+| :--- | :--- |
+| 启动容器 | docker run &lt;REPOSITORY&gt; |
+| 启动并进入容器 | docker run -ti --rm=true &lt;REPOSITORY&gt; /bin/bash |
 
 
 
