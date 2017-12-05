@@ -13,7 +13,7 @@
 | 查询服务器镜像 | docker search 镜像名称 |
 | 拉取服务器镜像 | docker pull 镜像名称 |
 | 查看本地镜像 | docker images |
-| 构建镜像命令 | docker build -t 镜像名称 -f dockerfile文件名称 .                       docker build -t 镜像名称 . |
+| 构建镜像命令 | docker build -t &lt;REPOSITORY:tag&gt; -f dockerfile文件名称 .     docker build -t &lt;REPOSITORY:tag&gt; . |
 
 # 容器指令
 
