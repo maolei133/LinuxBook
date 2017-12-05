@@ -24,7 +24,8 @@ das
 | 简介 | 指令 |
 | :--- | :--- |
 | 启动容器 | docker run &lt;REPOSITORY&gt; |
-| 启动并进入容器 | docker run -ti --rm=true &lt;REPOSITORY&gt; /bin/bash |
+| 进入容器 | docker exec -it &lt;CONTAINER ID&gt; /bin/bash |
+| 启动并进入容器 | docker run -it --rm=true &lt;REPOSITORY&gt; /bin/bash |
 |  |  |
 | 查看所有容器 | docker ps -a |
 |  |  |
