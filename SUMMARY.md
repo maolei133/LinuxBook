@@ -22,6 +22,8 @@
   * [配置docker](docker/pei-zhi-docker.md)
   * [指令](docker/zhi-ling.md)
 * [CentOS 7常见问题](centos-7chang-jian-wen-ti.md)
+* [ss](ss.md)
+  * [ss-panel](ss/ss-panel.md)
 
 ## docker
 
