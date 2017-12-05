@@ -1,5 +1,6 @@
 | 简介 | 指令 |
 | :--- | :--- |
+| 启动docker | systemctl start docker |
 | 查看版本 | docker -v |
 | 查看状态 | service docker status |
 | 查询镜像 | docker search 镜像名称 |
