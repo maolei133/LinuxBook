@@ -22,6 +22,12 @@ docker images
 
 docker ps -a
 
+
+
+停止启动容器
+
+docker stop $\(docker ps -q\)
+
 停止所有容器
 
 docker stop $\(docker ps -a -q\)
