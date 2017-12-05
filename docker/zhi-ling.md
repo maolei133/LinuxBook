@@ -11,6 +11,18 @@
 | 停用并删除容器 | docker stop $\(docker ps -q\) && docker rm $\(docker ps -aq\) |
 | 构建镜像命令 | docker build -t 镜像名称 -f dockerfile文件名称 . |
 
+# docker指令
+
+| 简介 | 指令 |
+| :--- | :--- |
+|  |  |
+
+# 镜像指令
+
+| 简介 | 指令 |
+| :--- | :--- |
+|  |  |
+
 # 容器指令
 
 | 简介 | 指令 |
