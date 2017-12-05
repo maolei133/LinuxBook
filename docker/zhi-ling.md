@@ -1,7 +1,7 @@
-| 启动docker | systemctl start docker |
+| 启动docker |  |
 | :--- | :--- |
-| 查看版本 | docker -v |
-| 查看状态 | service docker status |
+|  |  |
+|  | service docker status |
 | 查询镜像 | docker search 镜像名称 |
 | 拉取镜像 | docker pull 镜像名称 |
 | 查看已有镜像 | docker images |
@@ -15,7 +15,9 @@
 
 | 简介 | 指令 |
 | :--- | :--- |
-|  |  |
+| 启动docker | systemctl start docker |
+| 查看版本 | docker -v |
+| 查看状态 | systemctl status docker  |
 
 # 镜像指令
 
