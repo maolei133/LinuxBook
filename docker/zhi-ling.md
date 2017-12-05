@@ -13,7 +13,13 @@
 | 删除所有容器 | docker rm $\(docker ps -a -q\) |
 | 停用并删除容器 | docker stop $\(docker ps -q\) && docker rm $\(docker ps -aq\) |
 | 构建镜像命令 | docker build -t 镜像名称 -f dockerfile文件名称 . |
-| 进入容器 | docker exec -it &lt;CONTAINER ID&gt; /bin/bash |
+| 进入容器 | docker exec -it &lt;CONTAINER ID&gt; /bin/bash |
+
+
+
+| 简介 | 指令 |
+| :---: | :---: |
+| 进入容器 | docker run -ti --rm=true &lt;REPOSITORY&gt; /bin/bash |
 
 
 
