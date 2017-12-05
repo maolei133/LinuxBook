@@ -24,6 +24,7 @@
 * [CentOS 7常见问题](centos-7chang-jian-wen-ti.md)
 * [ss](ss.md)
   * [ss-panel](ss/ss-panel.md)
+    * [ss-panel-v4](ss/ss-panel/ss-panel-v4.md)
 
 ## docker
 
