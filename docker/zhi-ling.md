@@ -20,6 +20,7 @@
 
 | 简介 | 指令 |
 | :--- | :--- |
+| 查看容器IP |  |
 | 启动容器 | docker run &lt;REPOSITORY&gt; |
 | 进入容器 | docker exec -it &lt;CONTAINER ID&gt; /bin/bash |
 | 启动并进入容器 | docker run -it --rm=true &lt;REPOSITORY&gt; /bin/bash |
@@ -27,7 +28,7 @@
 | 删除容器 | docker rm $\(docker ps -aq\) |
 | 停用并删除容器 | docker stop $\(docker ps -q\) && docker rm $\(docker ps -aq\) |
 | 查看所有容器 | docker ps -a |
-| 查看容器IP | docker inspect --format='{{.NetworkSettings.IPAddress}}' $\(docker ps -a -q\) |
+
 
 
 
