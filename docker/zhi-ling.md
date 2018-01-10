@@ -20,7 +20,7 @@
 
 | 简介 | 指令 |
 | :--- | :--- |
-| 查看容器IP | docker restart $\(docker ps -q\) |
+| 重启容器 | docker restart $\(docker ps -q\) |
 | 启动容器 | docker run &lt;REPOSITORY&gt; |
 | 进入容器 | docker exec -it &lt;CONTAINER ID&gt; /bin/bash |
 | 启动并进入容器 | docker run -it --rm=true &lt;REPOSITORY&gt; /bin/bash |
