@@ -5,7 +5,7 @@
 | 查看版本 | docker -v |
 | 启动docker | systemctl start docker |
 | 查看状态 | systemctl status docker |
-啊实打实的
+
 # 镜像指令
 
 | 简介 | 指令 |
