@@ -13,7 +13,7 @@
 | 查询服务器镜像 | docker search 镜像名称 |
 | 拉取服务器镜像 | docker pull 镜像名称 |
 | 查看本地镜像 | docker images |
-| 构建镜像命令 | docker build -t &lt;REPOSITORY:tag&gt; -f dockerfile文件名称 .     docker build -t &lt;REPOSITORY:tag&gt; . |
+| 构建镜像命令 | docker build -t &lt;REPOSITORY:tag&gt; -f dockerfile文件名称 .            docker build -t &lt;REPOSITORY:tag&gt; . |
 | 删除所有镜像 | docker rmi $\(docker images -q\) |
 | 删除none镜像 | docker rmi $\(docker images \| grep "none" \| awk '{print $3}'\) |
 
