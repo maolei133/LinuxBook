@@ -26,6 +26,8 @@
 * [ss](ss.md)
   * [ss-panel](ss/ss-panel.md)
     * [ss-panel-v4](ss/ss-panel/ss-panel-v4.md)
+* [linux问题](linuxwen-ti.md)
+  * [debian](linuxwen-ti/debian.md)
 
 ## docker
 
