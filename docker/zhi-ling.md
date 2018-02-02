@@ -29,6 +29,7 @@
 | 删除容器 | docker rm $\(docker ps -aq\) |
 | 停用并删除容器 | docker stop $\(docker ps -q\) && docker rm $\(docker ps -aq\) |
 | 查看所有容器 | docker ps -a |
+| 查看容器的详细信息 | docker inspect &lt;CONTAINER ID&gt; |
 
 
 
