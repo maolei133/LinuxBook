@@ -28,4 +28,6 @@
     * [ss-panel-v4](ss/ss-panel/ss-panel-v4.md)
 * [linux问题](linuxwen-ti.md)
   * [debian](linuxwen-ti/debian.md)
+* [系统安装配置](系统安装配置.md)
+  * [debian](系统安装配置/debian.md)
 
