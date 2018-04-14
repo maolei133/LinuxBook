@@ -29,5 +29,3 @@
 * [linux问题](linuxwen-ti.md)
   * [debian](linuxwen-ti/debian.md)
 
-## docker
-
