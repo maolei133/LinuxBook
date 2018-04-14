@@ -1,6 +1,6 @@
 * ##### Vi方向键变乱码、删除键不能使用的解决方法
 
-> 修改 /etc/vim/vimrc.tiny  
+> 修改\# vi /etc/vim/vimrc.tiny  
 > set compatible 改为 set nocompatible  
 > 添加 set backspace=2
 
@@ -18,11 +18,15 @@
 >
 > 查询ip地址：
 >
-> ip address
+> ip addr
 
-* ##### 
+* ##### 更改debian的软件源sources.list
 
+> http://mirrors.163.com/.help/debian.html
+>
+> /etc/apt/sources.list
 
+* ##### 1
 
 
 
