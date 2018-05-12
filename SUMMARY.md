@@ -30,6 +30,6 @@
   * [debian](linuxwen-ti/debian.md)
 * [系统安装配置](系统安装配置.md)
   * [debian](系统安装配置/debian.md)
-    * [debian-软件安装](系统安装配置/debian/debianruan-jian-an-zhuang.md)
-    * [debian-一些指令](系统安装配置/debian/debianyi-xie-zhi-ling.md)
+    * [debian-软件安装](系统安装配置/debian/debian-ruan-jian-an-zhuang.md)
+    * [debian-一些指令](系统安装配置/debian/debian-yi-xie-zhi-ling.md)
 
