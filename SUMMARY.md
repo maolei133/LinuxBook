@@ -7,7 +7,7 @@
 * [maven](maven/maven.md)
   * [maven安装](maven/maven_install.md)
   * [maven配置](maven/maven_configure.md)
-  * [maven指令](maven/mavenzhi-ling.md)
+  * [maven指令](maven/maven-command.md)
 * [git 安装与配置](git/git.md)
   * [安装 git](git/git_install.md)
   * [配置 git](git/git_configure.md)
