@@ -6,7 +6,7 @@
 
 端口：26786
 
-密码：AeLmLEchmmZa
+密码：2oJo2cpmNAYz
 
 到期时间：2019年6月9日
 
