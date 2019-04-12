@@ -38,5 +38,11 @@ RAM：512 MB
 
 ---
 
+[http://www.hopol.cn/2018/05/1165/](http://www.hopol.cn/2018/05/1165/)
+
+[http://www.luckping.com/?p=736](http://www.luckping.com/?p=736)
+
+[http://www.tingtao.org/archives/1824.html](http://www.tingtao.org/archives/1824.html)
+
 
 
