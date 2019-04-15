@@ -6,7 +6,7 @@
 
 端口：26786
 
-密码：fYgqNotRCsPr
+密码：Ck7Ylu8Jxhe3
 
 到期时间：2019年6月9日
 
@@ -43,6 +43,4 @@ RAM：512 MB
 [http://www.luckping.com/?p=736](http://www.luckping.com/?p=736)
 
 [http://www.tingtao.org/archives/1824.html](http://www.tingtao.org/archives/1824.html)
-
-
 
