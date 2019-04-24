@@ -35,4 +35,5 @@
     * [debian-一些指令](系统安装配置/debian/debian-yi-xie-zhi-ling.md)
 * [vps服务](vpsfu-wu.md)
 * [PVE](pve.md)
+* [笔记](bi-ji.md)
 
