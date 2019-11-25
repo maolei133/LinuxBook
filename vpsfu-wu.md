@@ -44,3 +44,9 @@ RAM：512 MB
 
 [http://www.tingtao.org/archives/1824.html](http://www.tingtao.org/archives/1824.html)
 
+---
+
+> vmess://ewoidiI6ICIyIiwKInBzIjogIjIzM3YyLmNvbV8xNzIuOTYuMjMxLjE5NSIsCiJhZGQiOiAiMTcyLjk2LjIzMS4xOTUiLAoicG9ydCI6ICI2MTI0OCIsCiJpZCI6ICIwMjZjNzJhNi0xODA4LTQwZTktOTQwZS0yNDNjOTc2MDQ4ZDIiLAoiYWlkIjogIjIzMyIsCiJuZXQiOiAidGNwIiwKInR5cGUiOiAibm9uZSIsCiJob3N0IjogIiIsCiJwYXRoIjogIiIsCiJ0bHMiOiAiIgp9Cg==
+
+
+
